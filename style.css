@@ -14,9 +14,7 @@
 }
 
 header {
-
     padding: 12px 60px;
-
 }
 
 header nav {
@@ -26,16 +24,24 @@ header nav {
 }
 
 header nav ul {
-
     display: flex;
     align-items: center;
     gap: 32px;
 }
 
 .jumbotron {
-
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px 60px
+    padding: 0px 60px;
+    background-image: url(assets/H\ \(1\).jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron h1 {
+
+    font-size: 56px;
+    font-weight: 700;
 }
