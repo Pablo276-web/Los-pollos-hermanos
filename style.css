@@ -66,3 +66,70 @@ section .MENU {
     font-size: 32px;
     font-weight: 700;
 }
+
+.tarjeta {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 160px;
+}
+
+.tarjeta__img {
+    width: 120px;
+    height: 100%;
+    object-fit: contain;
+}
+
+.tarjeta__container{
+
+flex-grow: 1;
+max-width: 340px;
+text-align: center;
+
+}
+
+.tarjeta__container__tittle{
+
+font-size: 20px;
+font-weight: 700;
+
+}
+
+.tarjeta__container__description{
+
+font-size: 16px;
+opacity: .5;
+
+}
+
+.tarjeta__container2{
+
+display: flex;
+gap: 12px;
+}
+
+.tarjeta__container2__price{
+
+    text-decoration: line-through;
+font-size: 20px;
+font-weight: 700;
+opacity: .5;
+
+}
+
+.tarjeta__container2__offert{
+
+font-size: 20px;
+font-weight: 700;
+
+}
+
+.button{
+
+background-color: red;
+color: white;
+padding: 20px;
+
+}
