@@ -1,6 +1,6 @@
 * {
     font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
 
     margin: unset;
@@ -21,6 +21,13 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.Encabezado li {
+
+    font-size: 16px;
+    font-weight: 700;
+
 }
 
 header nav ul {
@@ -44,4 +51,15 @@ header nav ul {
 
     font-size: 56px;
     font-weight: 700;
+}
+
+section .MENU {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 60px;
+    font-size: 32px;
+    font-weight: 700;
+
 }
